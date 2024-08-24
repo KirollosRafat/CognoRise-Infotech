@@ -36,6 +36,7 @@ def main():
     password_len = get_length()
     Generated_PassWord = generate_password(password_len)
     print(f"Generated Password: {Generated_PassWord}")
+       
     try_another = input("Enter 1 if you want to try another password otherwise,enter anything: ")
     if try_another != "1":
        print("GoodBye!")
