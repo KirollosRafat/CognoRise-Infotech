@@ -19,7 +19,7 @@ def get_length(): ## gets the length of the password from the user
 
 def generate_password(length):
 
-    password = "" ## An empty string to recieve the outcome password result
+    password = ""  ## An empty string to recieve the outcome password result
     letters = string.ascii_letters  ## All uppercase,lowercase ASCII characters 
 
     i = 0 ## conuter initilization
