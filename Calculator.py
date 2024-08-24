@@ -33,7 +33,7 @@ def calculate(number1,number2,operation):
     if function:
         return function(number1,number2)
     else:
-        "Invalid"
+      return "Invalid"
 
 
 def main():
