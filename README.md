@@ -2,4 +2,4 @@
 
 Task ONE : Simple Calculator.
 
-Task TWO:  Password Generator.
+Task TWO: Random Password Generator.
