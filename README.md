@@ -1,6 +1,5 @@
 # CognoRise-InfoTech-Internship
-
-The tasks that i have worked on during the internship:
+TASKS:
 
 Task ONE : Simple Calculator.
 
