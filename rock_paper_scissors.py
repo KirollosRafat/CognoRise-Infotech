@@ -63,7 +63,13 @@ def main():
     while True:   
         try:
          ## Players (computer and user) choices
-         user_choice = input("pick from rock,paper or scissors: ") # User Choice
+         user_choice = input(f"pick from {game}: ") # User Choice
+
+         if user_choice not in game: 
+           print("You have to pick from rock , paper or scissors only!!")
+           continue
+           
+                  
          computer_choice = comp_choice() # Computer Choice 
          print(f"The Computer Picked {computer_choice}") # Print The Computer Choice
 
@@ -83,8 +89,8 @@ def main():
            print(f"The Final Score: Computer {computer_score} - User {user_score}")
            break
 
-        except ValueError:
-          print("You have to pick from rock , paper or scissors only!!") 
+        except Exception:
+          print("Something Went Wrong") 
 
 
 if __name__ == "__main__":
