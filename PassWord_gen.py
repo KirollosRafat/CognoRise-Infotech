@@ -6,14 +6,6 @@ def get_length(): ## gets the length of the password from the user
      try:
         length = int(input("Enter The Desired Length: ").strip()) ## turn the input number from string to integer 
 
-        if length < 1: ## handling if the user entered an invalid numberimport random 
-import string
-
-def get_length(): ## gets the length of the password from the user
-    while True:
-     try:
-        length = int(input("Enter The Desired Length: ").strip()) ## turn the input number from string to integer 
-
         if length < 1: ## handling if the user entered an invalid number
             print("Invaild Length!, Length should be a postive integer")
             continue
@@ -89,7 +81,6 @@ def main():
     if try_another != "1":
        print("GoodBye!")
        break
-
 
 if __name__ == "__main__":
     main()    
