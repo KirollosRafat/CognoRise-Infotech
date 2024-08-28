@@ -1,13 +1,9 @@
 import random
 
-
 game = ["rock","paper","scissors"] # Game Options
-
 
 def comp_choice():
     return random.choice(game) # computer's choice
-
-
 
 def determine_winner(user_choice, comp_choice):# Determine the winner through the game logic
    if user_choice == "rock":
@@ -91,7 +87,6 @@ def main():
 
         except Exception:
           print("Something Went Wrong") 
-
 
 if __name__ == "__main__":
     main()
