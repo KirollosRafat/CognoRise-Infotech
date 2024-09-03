@@ -10,3 +10,5 @@ Task THREE: Rock, Paper ,Scissors Game.
 Task FOUR: Dice Simulator.
 
 Task FIVE: Ecryption and Decryption Program.
+
+Task SIX: Sudoku Solver.
