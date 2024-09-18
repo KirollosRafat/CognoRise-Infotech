@@ -1,5 +1,6 @@
-# CognoRise-InfoTech-Internship
-TASKS:
+# CognoRise-InfoTech-Internship:
+
+# TASKS:
 
 Task ONE : Simple Calculator.
 
