@@ -31,32 +31,6 @@ def generate_password(length):
     return password
 
 
-def main():
-   while True:
-    password_len = get_length()
-    Generated_PassWord = generate_password(password_len)
-    print(f"Generated Password: {Generated_PassWord}")
-    try_another = input("Enter 1 if you want to try another password otherwise,enter anything: ")
-    if try_another != "1":
-       print("GoodBye!")
-       break
-
-
-if __name__ == "__main__":
-    main()    
-
-
-
-            print("Invaild Length!, Length should be a postive integer")
-            continue
-
-        return length
-     
-     except ValueError: ## handling if the user entered anything but integer 
-        print("Enter A Valid Number")
-
-
-
 def generate_password(length):
 
     password = ""  ## An empty string to recieve the outcome password result
